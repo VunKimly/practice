@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55b2c629-3a18-4697-abf4-1fc3c8dd950e" name="Changes" comment="Add initial project structure and configuration files for Flutter e-commerce app">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/e_commercestore23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/kotlin/com/example/e_commerce/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-hdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-mdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night-hdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night-mdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night-v21/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night-xhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night-xxhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night-xxxhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-night/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-v21/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-xhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-xxhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable-xxxhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/values-night-v31/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/values-v31/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/animations/141594-animation-of-docer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/animations/Animation - 1727428705793.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/animations/Animation - 1734335737001.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/animations/loader-animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/fonts/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/KHQR-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/KHQR.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/Unit 1.2 Grammar Extra Practice (HW).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/adidas-Samba-OG-Cloud-White-Core-Black-Product.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/adidas-Samba-OG-Cloud-White-Core-Black-Product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/change_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/change_password2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/change_password2_dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/clothes2_banners_ads.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/clothes_banners_ads.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/dark_change_password.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/email_verify_success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/email_verify_success_dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/facebook_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/facebook_logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/google_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/google_logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/hd-white-nike-logo-transparent-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/hd-white-nike-logo-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/hood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/jacket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/jeans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/loading_animation.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/nike_jacket4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/nike_jacket5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/nike_jacket6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/nike_jacket_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/nike_jacket_white2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/nike_jackets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/nike_jackets2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/nike_jackets3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/onboarding_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/onboarding_image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/onboarding_image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/photo_2024-09-05_08-42-57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/saint_valentine_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/sending_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/sending_email_dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/shirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/shoes_banner_ads.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/sneakers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/splash_screen_logo_black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/splash_screen_logo_white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/success-online-payment-icon-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/success-online-payment-icon.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/success-payment-icon.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/suit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/trousers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/tshirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/image/user_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/logo/e-commerce-logo-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/assets/logo/e-commerce-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchBackground.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchBackground.imageset/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchBackground.imageset/darkbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImageDark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImageDark@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImageDark@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/ios/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/app.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/bindings/general_binding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/styles/card_shadow.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/styles/spacing_style.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/appbar/appbar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/appbar/tabbar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/chips/choice_chip.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/custom_shapes/containers/circular_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/custom_shapes/containers/primary_header_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/custom_shapes/containers/rounded_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/custom_shapes/containers/search_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/custom_shapes/curved_edges/curved_edges.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/custom_shapes/curved_edges/custom_curved_edges.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/icons/circular_icon.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/image_text_widget/vertical_image_text.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/images/circular_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/images/e_banner.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/images/rounded_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/layouts/grid_layout.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/list_tile/setting_list_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/loaders/animation.loader.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/loaders/loaders.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/product_card/brand_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/product_card/brand_show_case.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/product_card/card_menu_icon.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/product_card/product_card_horizontal.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/product_card/product_card_vertical.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/sortable/sortable.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/texts/brand_title_text_verify.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/texts/product_price_text_.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/texts/product_title_text.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/common/widgets/texts/section_heading.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/data/repositories/authentication/authentication_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/data/repositories/user/user_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/controller/controllers.onboarding/onboarding_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/controller/login/login_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/controller/signup/signup_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/controller/signup/verify_email_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/forget_password/forget_password_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/login/login_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/login/widgets/login_divider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/login/widgets/login_form.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/login/widgets/login_header.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/login/widgets/login_social.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/onboarding/onboading.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/onboarding/widgets/onboarding_dot.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/onboarding/widgets/onboarding_next.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/onboarding/widgets/onboarding_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/onboarding/widgets/onboarding_skip.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/password_configuration.dart/forget_password.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/password_configuration.dart/reset_password.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/signup/signup_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/signup/success_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/signup/verify_email_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/signup/widgets/agree_term.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/signup/widgets/signup_divider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/signup/widgets/signup_form.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/signup/widgets/signup_header.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/authentication/screens/signup/widgets/signup_social.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/personalization/models/user_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/personalization/screens/about_us.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/personalization/screens/profile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/personalization/screens/profile/profile_widgets/profile_menu.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/personalization/screens/setting.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/controllers/home_banner_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/models/product_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/address/add_address.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/address/address.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/address/address_widgets/single_address.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/all_brand/all_brand.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/all_brand/brand_product.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/all_product/all_product.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/card/card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/card/card_widgets.dart/card_lists.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/card/card_widgets.dart/cart_items.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/card/card_widgets.dart/product_quantity_minus_add.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/checkout/checkout.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/checkout/checkout_widgets.dart/billing_payment.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/checkout/checkout_widgets.dart/billing_payment_address.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/checkout/checkout_widgets.dart/billing_payment_method.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/checkout/checkout_widgets.dart/billing_section.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/checkout/checkout_widgets.dart/coupon_enter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/checkout/checkout_widgets.dart/succes_payment.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/home/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/home/home_widgets/home_appbar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/home/home_widgets/home_banner_slider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/home/home_widgets/home_categories.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/order/order.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/order/order_list_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_detail/product_detail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_detail/product_detail_widgets/bottom_add_to_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_detail/product_detail_widgets/product_attribute.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_detail/product_detail_widgets/product_detail_image_slider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_detail/product_detail_widgets/product_meta_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_detail/product_detail_widgets/rating_and_share.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_review/product_review.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_review/product_review_widgets/overall_product_rating.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_review/product_review_widgets/product_rating.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_review/product_review_widgets/rating_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_review/product_review_widgets/user_review_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/product_review/test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/shop/shop.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/shop/shop_widgets/e_category_tab.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/sub-categories/sub_categories.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/features/shop/screens/wishlist/wishlist_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/firebase_options.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/navigation_menu.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/services/api_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/constants/colors.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/constants/enums.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/constants/image_string.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/constants/sizes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/device/device_utility.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/exception/exceptions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/exception/firebase_auth_exceptions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/exception/firebase_exceptions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/exception/format_exceptions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/exception/platform_exceptions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/formatters/formatter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/helpers/helper_function.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/helpers/pricing_calculator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/http/http_client.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/local_storage/stoarage_utility.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/logging/logger.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/network/network_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/popups/full_screen_loader.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/custom_themes/appbar_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/custom_themes/button_sheet_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/custom_themes/checkbox_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/custom_themes/chip_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/custom_themes/elevated_button_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/custom_themes/outlined_button_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/custom_themes/text.theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/custom_themes/text_field_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/theme/theme_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/lib/utils/validators/validation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/my_application.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/linux/my_application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/DebugProfile.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/Runner/Release.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/macos/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/splash.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/test/widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/icons/Icon-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/icons/Icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/icons/Icon-maskable-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/icons/Icon-maskable-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/splash/img/dark-1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/splash/img/dark-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/splash/img/dark-3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/splash/img/dark-4x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/splash/img/light-1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/splash/img/light-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/splash/img/light-3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/web/splash/img/light-4x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/Runner.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/flutter_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/flutter_window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/resource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/resources/app_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/runner.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/win32_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e_commerce/windows/runner/win32_window.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/e_commerce" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2zZnAWkV9CjeUooa7eeh0Qk3VRB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flutter.Unnamed.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "io.flutter.reload.alreadyRun": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/News_App2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Downloads\Telegram Desktop\e_commercestore23\e_commerce\lib\services" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/e_commerce/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55b2c629-3a18-4697-abf4-1fc3c8dd950e" name="Changes" comment="" />
+      <created>1751947319520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751947319520</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial project structure and configuration files for Flutter e-commerce app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial project structure and configuration files for Flutter e-commerce app" />
+  </component>
+</project>
